@@ -1,3 +1,10 @@
+###
+ # @Description: new file
+ # @Autor: zhan
+ # @Date: 2020-04-06 14:30:16
+ # @LastEditors: zhan
+ # @LastEditTime: 2020-04-06 14:30:26
+ ###
 
 #!/usr/bin/env sh
 
@@ -9,7 +16,7 @@ set -e
 
 git init
 git add -A
-git commit -m 'deploy:dev'
+git commit -m 'deploy:build'
 git push -u origin master -f 
 
 cd -
